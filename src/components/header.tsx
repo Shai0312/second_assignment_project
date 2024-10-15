@@ -1,7 +1,7 @@
 
  export default function Header(){
      return(
-        <>
+        
         <nav className="navigation p-0.5">
      <div className="headerContainer flex justify-between mx-20 my-4">
        <div className="logo text-5xl font-bold">SK</div>
@@ -14,6 +14,6 @@
        <button className="button p-2 bg-yellow-400 rounded-md text-2xl hover:bg-yellow-600 ">Hire Me</button>
      </div>
      </nav>
-     </>
+     
      )
  }
